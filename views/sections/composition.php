@@ -5,7 +5,7 @@
         <h3 class="section-title text-center"><?= $composition['title']; ?></h3>
         <div class="row justify-content-center">
             <?php foreach ($composition['item'] as $item) :?>
-                <div class="col-md-3 text-center item">
+                <div class="col-sm-6 col-lg-3 text-center item">
                     <div class="thumb">
                         <img src="<?= $item['image']; ?>" alt="composition">
                     </div>

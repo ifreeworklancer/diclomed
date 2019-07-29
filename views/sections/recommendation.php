@@ -8,8 +8,8 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="https://shop.av.zp.ua/tovar/antiseptik-sprej-40-ml-stm/" class="btn btn-primary"><?= $btn_order; ?></a>
-            <a class="btn btn-default" href="docs/instruction.zip" download>
+            <a href="https://shop.av.zp.ua/tovar/diklomed-krem-gel-5-tuba-50ml-stm/" class="btn btn-primary"><?= $btn_order; ?></a>
+            <a class="btn btn-default" href="docs/instruction.txt" download>
                 <img src="images/icons/download-1.svg">
                 <?= $btn_instruction; ?>
             </a>

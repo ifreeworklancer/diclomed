@@ -82,55 +82,6 @@ footer {
     font-size: 22px;
 }
 
-.top-section .subtitle {
-
-    li {
-        position: relative;
-        padding-left: 30px;
-        font-size: 24px; 
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 0;
-            transform: translateY(-50%);
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 20px;
-            height: 20px;
-        }
-
-        &:nth-child(1) {
-
-            &::before {
-                background-image: url('../images/icons/skyline.svg');
-            }
-        }
-
-        &:nth-child(2) {
-
-            &::before {
-                background-image: url('../images/icons/stress.svg');
-            }
-        }
-
-        &:nth-child(3) {
-
-            &::before {
-                background-image: url('../images/icons/fast-food.svg');
-            }
-        }
-
-        &:nth-child(4) {
-
-            &::before {
-                background-image: url('../images/icons/champagne-glass.svg');
-            }
-        }
-    }
-}
-
 .top-section .simbinova {
     position: absolute;
     top: -20px;
@@ -205,45 +156,6 @@ footer {
 
 .composition-section .description {
     margin-top: 60px;
-
-    li {
-        position: relative;
-        padding-left: 35px;
-        margin-bottom: 10px;
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 0;
-            transform: translateY(-50%);
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 25px;
-            height: 25px;
-        }
-
-        &:nth-child(1) {
-
-            &::before {
-                background-image: url('../images/icons/clock.svg');
-            }
-        }
-
-        &:nth-child(2) {
-
-            &::before {
-                background-image: url('../images/icons/cheap.svg');
-            }
-        }
-
-        &:nth-child(3) {
-
-            &::before {
-                background-image: url('../images/icons/liver.svg');
-            }
-        }
-    }
 }
 
 /*
@@ -295,11 +207,6 @@ footer {
         z-index: 0;
     }
 
-    .top-section .antiseptic {
-        position: inherit;
-        height: 400px;
-    }
-
     .composition-section .item {
         margin-bottom: 40px;
     }
@@ -325,8 +232,8 @@ footer {
     }
 
     .composition-section .item .thumb img {
-        max-width: 245px;
-        height: 245px;
+        max-width: 180px;
+        height: 180px;
     }
 
     .composition-section .description {
