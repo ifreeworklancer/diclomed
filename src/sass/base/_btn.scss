@@ -1,0 +1,29 @@
+.btn {
+    border-radius: 5px;
+    outline: none !important;
+    font-size: 16px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        outline: none !important;
+        border-color: #464646 !important;
+        background-color: transparent !important;
+    }
+
+    &-primary {
+        border-color: #E2964B;
+        background-image: linear-gradient(to bottom, #E2964B, #D86246);
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: #E2964B !important;
+            background-image: linear-gradient(to bottom, #E2964B, #D86246) !important;
+        }
+    }
+}
+
+.btn-default {
+    border: 1px solid #464646;
+}
